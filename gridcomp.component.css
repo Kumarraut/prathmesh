@@ -1,0 +1,77 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Create 5 equal-width columns */
+    grid-gap: 10px; /* Adjust the gap between columns if desired */
+    
+  }
+  
+  .grid-item {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    background-color: gainsboro;
+  }
+
+  .table-container {
+    max-height: 400px; /* Set the desired height for the table container */
+    overflow-y: scroll;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  thead th {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 1;
+  }
+  
+  tbody {
+    display: block;
+    overflow-y: auto;
+    height: calc(100% - 18px); /* Adjust the height to account for the header row height */
+  }
+  
+  tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+  }
+
+
+  .table-container {
+    max-height: 400px; /* Set the desired height for the table container */
+    overflow-y: scroll;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  thead th {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 1;
+  }
+  
+  tbody {
+    display: block;
+    overflow-y: auto;
+    height: calc(100% - 18px); /* Adjust the height to account for the header row height */
+  }
+  
+  tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+  }
+  
+  
+
+  
+  

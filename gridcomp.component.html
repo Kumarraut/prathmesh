@@ -1,0 +1,38 @@
+<p>gridcomp works!</p>
+
+<div class="table-container">
+  <table>
+    <thead>
+      <tr>
+        <th>Column 1</th>
+        <th>Column 2</th>
+        <th>Column 3</th>
+        <th>Column 4</th>
+        <th>Column 5</th>
+      </tr>
+    </thead>
+    <tbody>
+     
+
+    </tbody>
+  </table>
+</div>
+
+
+<div class="grid-container">
+
+  <div class="grid-item" *ngFor="let data of finalData">
+    <img [src]="data.picture.large" alt="image"><br>
+    {{data.cell}}<br>
+    {{data.name.title}}.{{data.name.first}} {{data.name.last}}<br>
+    {{data.email}}<br>
+    {{data.dob.age}} {{data.dob.date}}<br>
+    {{data.gender}}<br>
+    {{data.location.city}}<br>
+    {{data.location.country}}<br>
+    {{data.location.timezone.description}}<br>
+    {{data.phone}}
+
+  </div>
+
+  </div>
